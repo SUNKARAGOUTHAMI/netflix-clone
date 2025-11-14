@@ -30,7 +30,7 @@ A simplified streaming service dashboard built with Next.js 14, TypeScript, and 
 
 1. Clone the repository:
 
-    git clone https://github.com/your-username/my-streaming-dashboard.git
+    git clone https://github.com/SUNKARAGOUTHAMI/my-streaming-dashboard.git
     cd my-streaming-dashboard
 
 2. Install dependencies:
