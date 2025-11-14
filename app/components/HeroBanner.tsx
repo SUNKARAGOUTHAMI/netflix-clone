@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { MovieSummary } from '../../types/movie';
+import { MovieSummary } from 'movie';
 
 interface HeroBannerProps {
   movie: MovieSummary;
