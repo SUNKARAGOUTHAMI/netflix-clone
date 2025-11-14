@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { MovieSummary } from 'movie';
+import { MovieSummary } from '../../types/movie';  // Adjust path as needed
 
 interface HeroBannerProps {
   movie: MovieSummary;
