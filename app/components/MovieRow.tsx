@@ -2,7 +2,7 @@
 
 import { useRef, KeyboardEvent, WheelEvent } from 'react';
 import MovieCard from './MovieCard';
-import { MovieSummary } from '@types/movie';
+import { MovieSummary } from '../../types/movie';  // Adjust path as needed
 
 interface MovieRowProps {
   movies: MovieSummary[];
