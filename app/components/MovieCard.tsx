@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { MovieSummary } from '@types/movie';
+import { MovieSummary } from '../../types/movie';  // Adjust path as needed
 
 interface MovieCardProps {
   movie: MovieSummary;
