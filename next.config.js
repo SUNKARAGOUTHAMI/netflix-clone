@@ -1,12 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  
-    appDir: true,
-  
+  reactStrictMode: true,
   images: {
     domains: ['image.tmdb.org'],
   },
-  reactStrictMode: true,
+  // Remove 'appDir' key completely if using Next.js 14+ as it's enabled by default or managed differently
 };
 
 module.exports = nextConfig;
