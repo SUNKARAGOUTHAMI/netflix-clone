@@ -18,14 +18,18 @@ export interface VideoResponse {
   results: Video[];
 }
 
+
+// types/movie.ts
 export interface MovieSummary {
   id: number;
   title: string;
-  poster_path: string | null;
-  backdrop_path: string | null;
   overview: string;
+    poster_path: string;
   release_date: string;
   vote_average: number;
+
+  backdrop_path: string;
+  // add any other relevant fields
 }
 
 export interface MovieDetail extends MovieSummary {
