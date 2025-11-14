@@ -18,8 +18,6 @@ export interface VideoResponse {
   results: Video[];
 }
 
-
-// types/movie.ts
 export interface MovieSummary {
   id: number;
   title: string;
