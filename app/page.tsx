@@ -7,6 +7,8 @@ import {
   fetchUpcomingMovies,
 } from '@lib/tmdb';
 import { MovieDetail } from '../types/movie';
+import { MovieSummary } from '../types/movie';  // Adjust path as needed
+
 
 interface HomePageProps {
   popularMovies: MovieSummary[];
