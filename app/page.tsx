@@ -1,3 +1,4 @@
+
 import HeroBanner from './components/HeroBanner';
 import MovieRow from './components/MovieRow';
 import {
@@ -8,10 +9,10 @@ import {
 import { MovieDetail } from '../../../types/movie';
 
 interface HomePageProps {
-  popularMovies: MovieSummary[];
-  topRatedMovies: MovieSummary[];
-  upcomingMovies: MovieSummary[];
-  featuredMovie: MovieSummary | null;
+  popularMovies: MovieDetail[];
+  topRatedMovies: MovieDetail[];
+  upcomingMovies: MovieDetail[];
+  featuredMovie: MovieDetail | null;
 }
 
 async function getData(): Promise<HomePageProps> {
