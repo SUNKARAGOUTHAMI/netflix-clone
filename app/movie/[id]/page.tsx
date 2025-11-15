@@ -86,7 +86,7 @@ export default async function MovieDetailPage({ params }: MovieDetailPageProps) 
             : 'N/A'}
         </div>
         <div>
-          <strong>Rating:</strong> {movie.vote_average.toFixed(1)} / 10
+          <strong>Rating:</strong> {(movie.vote_average ?? 0).toFixed(1)} / 10
         </div>
       </section>
       {movie.videos.results.length > 0 && (
