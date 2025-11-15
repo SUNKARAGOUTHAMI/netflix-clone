@@ -1,4 +1,4 @@
-import { MovieDetail } from '@types/movie';
+import { MovieDetail } from '../../../types/movie';
 import { fetchMovieById } from '@lib/tmdb';
 import Image from 'next/image';
 
