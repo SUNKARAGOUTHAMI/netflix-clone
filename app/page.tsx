@@ -6,7 +6,7 @@ import {
   fetchTopRatedMovies,
   fetchUpcomingMovies,
 } from '@lib/tmdb';
-import { MovieDetail } from '../../../types/movie';
+import { MovieDetail } from '../types/movie';
 
 interface HomePageProps {
   popularMovies: MovieDetail[];
