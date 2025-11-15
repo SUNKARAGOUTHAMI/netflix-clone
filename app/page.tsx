@@ -1,4 +1,3 @@
-
 import HeroBanner from './components/HeroBanner';
 import MovieRow from './components/MovieRow';
 import {
@@ -6,15 +5,13 @@ import {
   fetchTopRatedMovies,
   fetchUpcomingMovies,
 } from '@lib/tmdb';
-import { MovieDetail } from '../types/movie';
 import { MovieSummary } from '../types/movie';  // Adjust path as needed
-
 
 interface HomePageProps {
   popularMovies: MovieSummary[];
   topRatedMovies: MovieSummary[];
   upcomingMovies: MovieSummary[];
-  featuredMovie: MovieDetail | null;
+  featuredMovie: MovieSummary | null;
 }
 
 async function getData(): Promise<HomePageProps> {
@@ -24,6 +21,7 @@ async function getData(): Promise<HomePageProps> {
       fetchTopRatedMovies(),
       fetchUpcomingMovies(),
     ]);
+
     const featuredMovie = popular.length > 0 ? popular[0] : null;
 
     return {
