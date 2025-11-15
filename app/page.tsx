@@ -9,9 +9,9 @@ import {
 import { MovieDetail } from '../types/movie';
 
 interface HomePageProps {
-  popularMovies: MovieDetail[];
-  topRatedMovies: MovieDetail[];
-  upcomingMovies: MovieDetail[];
+  popularMovies: MovieSummary[];
+  topRatedMovies: MovieSummary[];
+  upcomingMovies: MovieSummary[];
   featuredMovie: MovieDetail | null;
 }
 
